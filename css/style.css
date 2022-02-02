@@ -14,6 +14,23 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* logo */
+.logo-main {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.web-color-main {
+  color: var(--accent-color);
 }
 
 ul {
@@ -31,22 +48,91 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav,
+.auth-nav {
+  letter-spacing: 0.02em;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link,
+.auth-nav .link {
+  text-decoration: none;
+}
+
 /* hero */
 .hero {
   color: var(--white-color);
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 
-/* features */
+.main-bg {
+  background-color: #2f303a;
+}
+
+/* section */
 .section .section-title {
   color: var(--title-text-color);
 }
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* features */
 .features .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section {
+  letter-spacing: 0.03em;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* our team */
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .team .co-worker {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team .post {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-bg {
+  background-color: #f5f4fa;
 }
 
 /* Button */
@@ -58,4 +144,42 @@ ul {
   border-color: transparent;
   color: var(--white-color);
   background-color: var(--accent-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9px;
+}
+
+/* Футер */
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-bg {
+  background-color: #2f303a;
+}
+
+.address .street {
+  color: var(--white-color);
+}
+
+.address .info {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-minor {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.web-color-minor {
+  color: var(--accent-color);
 }
