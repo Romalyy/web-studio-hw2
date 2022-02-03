@@ -62,6 +62,10 @@ ul {
   text-decoration: none;
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* hero */
 .hero {
   color: var(--white-color);
@@ -137,7 +141,7 @@ ul {
 
 /* Button */
 
-.button {
+.first-type-button {
   font-size: 24px;
   padding: 12px 24px;
   display: inline-block;
@@ -148,6 +152,8 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9px;
+
+  cursor: pointer;
 }
 
 /* Футер */
@@ -181,5 +187,59 @@ ul {
 }
 
 .web-color-minor {
+  color: var(--accent-color);
+}
+
+/* Стили для portfolio */
+
+.second-type-button {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  border-color: transparent;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+}
+
+.second-type-button:hover,
+.second-type-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.site-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.06em;
+
+  color: #757575;
+}
+
+.address .street:hover,
+.address .street:focus {
+  color: var(--accent-color);
+}
+
+.address .info:hover,
+.address .info:focus {
   color: var(--accent-color);
 }
