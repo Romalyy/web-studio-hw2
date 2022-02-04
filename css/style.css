@@ -66,6 +66,14 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .link {
+  color: #212121;
+}
+
+.auth-nav .link {
+  color: #757575;
+}
+
 /* hero */
 .hero {
   color: var(--white-color);
@@ -108,6 +116,9 @@ ul {
 }
 
 .features .text {
+  font-family: Roboto, sans-serif;
+
+  color: #757575;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -135,6 +146,10 @@ ul {
   text-align: center;
 }
 
+.post {
+  color: #757575;
+}
+
 .team-bg {
   background-color: #f5f4fa;
 }
@@ -142,6 +157,8 @@ ul {
 /* Button */
 
 .first-type-button {
+  font-family: Roboto, sans-serif;
+
   font-size: 24px;
   padding: 12px 24px;
   display: inline-block;
@@ -157,10 +174,14 @@ ul {
 }
 
 /* Футер */
-.address {
+.address .street,
+.address .info {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.address {
+  font-style: normal;
 }
 
 .footer-bg {
@@ -169,10 +190,12 @@ ul {
 
 .address .street {
   color: var(--white-color);
+  text-decoration: none;
 }
 
 .address .info {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .logo-minor {
